@@ -7,10 +7,10 @@
   color: #3e52a3;
 }
 
-/*@font-face {
+@font-face {
   font-family: "Red Hat Display";
   src: url(/font/RedHatDisplay-VariableFont_wght.ttf);
-}*/
+}
 
 body {
   font-family: "Red Hat Display";
@@ -50,7 +50,7 @@ body {
 }
 
 .card .order .order_sum {
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   color: #1f2f56;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .card .pricing .payment .duration {
-  font-weight: 500;
+  font-weight: 700;
   color: #7280a7;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .card .m_payment {
-  margin: 20px 20px;
+  margin: 25px 10px;
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -116,16 +116,14 @@ body {
 .card .pay {
   background-color: #3829e0;
   color: white;
-  font-weight: 900;
+  font-weight: 700;
   margin: 10px 20px 0 20px;
   text-align: center;
   padding: 10px 0;
   border-radius: 10px;
-  -webkit-box-shadow: red;
-          box-shadow: red;
   width: auto;
-  -webkit-box-shadow: 0 8px 10px rgba(56, 41, 224, 0.3);
-          box-shadow: 0 8px 10px rgba(56, 41, 224, 0.3);
+  -webkit-box-shadow: 0 8px 16px rgba(56, 41, 224, 0.3);
+          box-shadow: 0 8px 16px rgba(56, 41, 224, 0.3);
 }
 
 .card .pay:hover {
@@ -137,8 +135,8 @@ body {
 }
 
 .card .cancel {
-  background-color: #ebebff;
-  font-weight: 900;
+  background-color: #f5f7ff;
+  font-weight: 700;
   margin: 10px 20px 0 20px;
   text-align: center;
   width: auto;
@@ -174,17 +172,13 @@ a {
   }
   .card .order {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 40px;
+    width: auto;
+    margin: 10px auto;
   }
   .card .order .order_sum {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
     color: #1f2f56;
   }
   .card .wedo {
@@ -211,10 +205,10 @@ a {
   .card .pricing .payment {
     padding-left: 20px;
     width: 100px;
-    font-weight: 900;
   }
   .card .pricing .payment .type {
     padding-bottom: 3px;
+    font-weight: 900;
   }
   .card .pricing .payment .duration {
     font-weight: 200;
@@ -225,10 +219,11 @@ a {
     text-decoration: underline;
     color: #0d0daf;
     margin-left: 30px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .card .pricing .change:hover {
     opacity: 0.5;
+    text-decoration: none;
   }
   .card .m_payment {
     margin: 25px 10px;
@@ -240,11 +235,14 @@ a {
   .card .pay {
     background-color: #3829e0;
     color: white;
-    font-weight: 800;
+    font-weight: 700;
     margin: 10px 20px 0 20px;
     text-align: center;
     padding: 10px 0;
     border-radius: 10px;
+    width: auto;
+    -webkit-box-shadow: 0 8px 16px rgba(56, 41, 224, 0.3);
+            box-shadow: 0 8px 16px rgba(56, 41, 224, 0.3);
   }
   .card .pay:hover {
     opacity: 0.8;
@@ -254,13 +252,12 @@ a {
   }
   .card .cancel {
     background-color: white;
-    font-weight: 800;
+    font-weight: 700;
     margin: 10px 20px 0 20px;
     text-align: center;
+    width: auto;
     padding: 10px 0;
     border-radius: 10px;
-    -webkit-box-shadow: red;
-            box-shadow: red;
   }
   .card .cancel a {
     color: #7280a7;
