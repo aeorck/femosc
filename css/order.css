@@ -7,9 +7,13 @@
   color: #3e52a3;
 }
 
+@font-face {
+  font-family: "Red Hat Display";
+  src: url(/font/RedHatDisplay-VariableFont_wght.ttf);
+}
+
 body {
-  font-family: "Outfit", sans-serif;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
   font-size: 16px;
   background-image: url(/images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
@@ -24,6 +28,7 @@ body {
   border-radius: 10px;
   background-color: white;
   position: static;
+  padding-bottom: 20px;
 }
 
 .card .hero {
@@ -35,17 +40,18 @@ body {
   width: 350px;
   border-radius: 10px 10px 0 0;
   padding: 0;
-  position: relative;
   padding: auto;
 }
 
 .card .order {
   position: relative;
+  width: 250px;
+  margin: 10px auto;
 }
 
 .card .order .order_sum {
-  font-weight: 500;
-  padding: 0 50px;
+  font-weight: 900;
+  text-align: center;
   color: #1f2f56;
 }
 
@@ -57,7 +63,7 @@ body {
 }
 
 .card .pricing {
-  margin: 0 25px;
+  margin: 30px 25px;
   background-color: #f5f7ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,7 +79,7 @@ body {
 }
 
 .card .pricing .payment {
-  padding-left: 20px;
+  margin-left: 20px;
   width: 100px;
 }
 
@@ -100,7 +106,7 @@ body {
 }
 
 .card .m_payment {
-  margin: 10px 20px;
+  margin: 20px 20px;
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -117,6 +123,9 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: red;
           box-shadow: red;
+  width: auto;
+  -webkit-box-shadow: 0 8px 10px rgba(56, 41, 224, 0.3);
+          box-shadow: 0 8px 10px rgba(56, 41, 224, 0.3);
 }
 
 .card .pay:hover {
@@ -128,14 +137,13 @@ body {
 }
 
 .card .cancel {
-  background-color: white;
+  background-color: #ebebff;
   font-weight: 900;
   margin: 10px 20px 0 20px;
   text-align: center;
+  width: auto;
   padding: 10px 0;
   border-radius: 10px;
-  -webkit-box-shadow: red;
-          box-shadow: red;
 }
 
 .card .cancel a {
