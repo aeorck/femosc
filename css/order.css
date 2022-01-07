@@ -7,10 +7,10 @@
   color: #3e52a3;
 }
 
-@font-face {
+/*@font-face {
   font-family: "Red Hat Display";
   src: url(/font/RedHatDisplay-VariableFont_wght.ttf);
-}
+}*/
 
 body {
   font-family: "Red Hat Display";
@@ -45,7 +45,7 @@ body {
 
 .card .order {
   position: relative;
-  width: 250px;
+  width: auto;
   margin: 10px auto;
 }
 
