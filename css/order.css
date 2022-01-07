@@ -7,11 +7,6 @@
   color: #3e52a3;
 }
 
-@font-face {
-  font-family: "Red Hat Display";
-  src: url(/font/RedHatDisplay-VariableFont_wght.ttf);
-}
-
 body {
   font-family: "Red Hat Display";
   font-size: 16px;
