@@ -155,7 +155,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 360px) {
   body {
     background-image: url(/images/pattern-background-mobile.svg);
     background-color: #e0e8ff;
